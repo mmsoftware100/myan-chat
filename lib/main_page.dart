@@ -10,8 +10,9 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
 
-  final String url = 'http://mc.thelectors.com/newapp/'; // 'https://www.google.com';
-
+  // final String url = 'http://mc.thelectors.com/newapp/'; // 'https://www.google.com';
+  final String url = 'http://192.168. 100.1'; // 'https://www.google.com';
+  // 192.168. 100.1
   late final WebViewController _controller;
   var loadingPercentage = 0;
 
